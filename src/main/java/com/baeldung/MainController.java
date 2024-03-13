@@ -15,7 +15,14 @@ public class MainController {
     }
 
     @GetMapping("/gg")
-    public String viewIndexPage(Model model) {
+    public String viewGgg(Model model) {
+        System.out.println("$$$ GGG");
+        model.addAttribute("header", "Maven Generate War");
+        return "index";
+    }
+
+    @GetMapping("/hhh")
+    public String viewHHH(Model model) {
         System.out.println("$$$ GGG");
         model.addAttribute("header", "Maven Generate War");
         return "index";

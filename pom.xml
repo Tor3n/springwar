@@ -28,7 +28,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <version>2.6.4</version>
-            <!--scope>provided</scope-->
+            <!--UNCOMMENT PROVIDED TO BE ABLE TO DEPLOY WAR TO TOM IN SRV-->
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
